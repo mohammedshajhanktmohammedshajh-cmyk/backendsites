@@ -1,0 +1,9 @@
+const router = require("express") .Router() ;
+
+router.get("/", (req, res) => {
+    res.send("this is payment route")
+
+    
+});
+
+module.exports = router;
